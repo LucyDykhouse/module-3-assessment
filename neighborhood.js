@@ -1,5 +1,5 @@
 //// BONUS PROBLEM CODE BELOW ////
-const restaurantArr = ['Fidlers on the Grand', 'The Cosmos', 'Sushi Moto', 'Choupli', 'Thai Village'];
+const restaurantArr = ['Fidlers on the Grand', 'Cosmos', 'Sushi Moto', 'Choupli', 'Thai Village'];
 
 const selectRandom = () => {
 	let randomIndex = Math.floor(Math.random()*5);

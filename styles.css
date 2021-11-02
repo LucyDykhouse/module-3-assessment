@@ -21,18 +21,33 @@ ol {
 }
 
 a {
-	color: orange;
+	color: darkorange;
 }
 
 a:visited {
 	color: crimson;
 }
 
-
 input {
 	display: block;
 }
 
+/*Added to style checkbox*/
+label {
+	display: inline;
+}
+/*Added to style checkbox*/
+input[type='checkbox'] {
+	display: inline;
+}
+
 img {
 	max-width: 300px;
+	border: 3px solid black;
+}
+
+.favorites {
+	background-color: yellow;
+	font-size: 16px;
+	padding: 10px;
 }

@@ -3,7 +3,6 @@
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
-
 </head>
 <body>
 	<nav>
@@ -15,10 +14,17 @@
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+		<p>Hello World</p>
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+		<img src="https://www.mindovermachines.com/wp-content/uploads/2019/03/rubber-ducky-2-800x400.jpg" alt="Rubber Duck"/>
+
+		<p> Welcome to my website, we are so glad to see you! Feel free to take a look around, read the compliments below, or reach out to us using the contact form!</p>
+
+		<ul>
+			<li>You're intelligent!</li>
+			<li>You're creative!</li>
+			<li>You can figure things out!</li>
+		</ul>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
@@ -26,17 +32,22 @@
 			<input type="text">
 
 			Message:
-			<input type="textarea">
+			<input type="textarea"><br>
 
+			How did you hear about this website?<br>
+			<input id="place1" type="checkbox" value="google"/>
+			<label for="place1">Google</label><br>
+			<input type="checkbox" id="place2" value="friend"/>
+			<label for="place2">A friend</label><br>
+			<input type="checkbox" id="place3" value="other"/>
+			<label for="place3">Other</label><br><br>
+			
 			<input type="submit">
-
 
 		</form>
 
 	</content>
 
-
 	<script src="about.js"></script>
-
 </body>
 </html>
